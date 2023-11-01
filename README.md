@@ -1,4 +1,5 @@
 # Student-Attendance-System-by-Facial-Recognition
+This repository is ccreated for the purpose of Recent Open-Source Project Lab subject for the degree "Bachelor of Engineering" in "information technology". Here me and my friends have worked together on the "Student Attendance System By Facial Recognition in python".About Us:I Avdhut Madan and my friends are the student of "Shivajirao S.Jondhale College of Engineering,(E)",affiliated to the "University of Mumbai"
 A student attendance system using facial recognition is an innovative application of computer vision technology. Traditional attendance systems often rely on manual methods such as calling out names or using barcode scanners, which can be time-consuming and prone to errors. Facial recognition-based attendance systems automate this process by using face detection and recognition techniques to identify and mark the presence of students.
 
 In this project, you'll leverage Python and various libraries like OpenCV, dlib, and face_recognition to build a system that can recognize students' faces, compare them against a database, and record their attendance automatically
