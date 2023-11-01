@@ -362,29 +362,9 @@ window.configure(background='#262523')
 
 #######FRONT END AVDHUT HERE##########
 
+
+
 #######FRONT END AVDHUT HERE##########
-
-datef = tk.Label(frame4, text = day+"-"+mont[month]+"-"+year+"  |  ", fg="orange",bg="#262523" ,width=55 ,height=1,font=('times', 22, ' bold '))
-datef.pack(fill='both',expand=1)
-
-clock = tk.Label(frame3,fg="orange",bg="#262523" ,width=55 ,height=1,font=('times', 22, ' bold '))
-clock.pack(fill='both',expand=1)
-tick()
-
-head2 = tk.Label(frame2, text="                       For New Registrations                       ", fg="black",bg="#3ece48" ,font=('times', 17, ' bold ') )
-head2.grid(row=0,column=0)
-
-head1 = tk.Label(frame1, text="                       For Already Registered                       ", fg="black",bg="#3ece48" ,font=('times', 17, ' bold ') )
-head1.place(x=0,y=0)
-
-lbl = tk.Label(frame2, text="Enter ID",width=20  ,height=1  ,fg="black"  ,bg="#00aeff" ,font=('times', 17, ' bold ') )
-lbl.place(x=80, y=55)
-
-txt = tk.Entry(frame2,width=32 ,fg="black",font=('times', 15, ' bold '))
-txt.place(x=30, y=88)
-
-lbl2 = tk.Label(frame2, text="Enter Name",width=20  ,fg="black"  ,bg="#00aeff" ,font=('times', 17, ' bold '))
-lbl2.place(x=80, y=140)
 
 txt2 = tk.Entry(frame2,width=32 ,fg="black",font=('times', 15, ' bold ')  )
 txt2.place(x=30, y=173)
@@ -410,6 +390,8 @@ if exists:
 else:
     res = 0
 message.configure(text='Total Registrations till now  : '+str(res))
+
+
 
 ##################### MENUBAR Omkar here#################################
 
