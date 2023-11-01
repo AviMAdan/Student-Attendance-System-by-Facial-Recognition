@@ -452,7 +452,18 @@ scroll.grid(row=2,column=4,padx=(0,100),pady=(150,0),sticky='ns')
 tv.configure(yscrollcommand=scroll.set)
 
 ###################### BUTTONS Krishna Here ##################################
-
+clearButton = tk.Button(frame2, text="Clear", command=clear  ,fg="black"  ,bg="#ea2a2a"  ,width=11 ,activebackground = "white" ,font=('times', 11, ' bold '))
+clearButton.place(x=335, y=86)
+clearButton2 = tk.Button(frame2, text="Clear", command=clear2  ,fg="black"  ,bg="#ea2a2a"  ,width=11 , activebackground = "white" ,font=('times', 11, ' bold '))
+clearButton2.place(x=335, y=172)    
+takeImg = tk.Button(frame2, text="Take Images", command=TakeImages  ,fg="white"  ,bg="blue"  ,width=34  ,height=1, activebackground = "white" ,font=('times', 15, ' bold '))
+takeImg.place(x=30, y=300)
+trainImg = tk.Button(frame2, text="Save Profile", command=psw ,fg="white"  ,bg="blue"  ,width=34  ,height=1, activebackground = "white" ,font=('times', 15, ' bold '))
+trainImg.place(x=30, y=380)
+trackImg = tk.Button(frame1, text="Take Attendance", command=TrackImages  ,fg="black"  ,bg="yellow"  ,width=35  ,height=1, activebackground = "white" ,font=('times', 15, ' bold '))
+trackImg.place(x=30,y=50)
+quitWindow = tk.Button(frame1, text="Quit", command=window.destroy  ,fg="black"  ,bg="red"  ,width=35 ,height=1, activebackground = "white" ,font=('times', 15, ' bold '))
+quitWindow.place(x=30, y=450)
 
 
 ##################### END ######################################
